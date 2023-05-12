@@ -57,17 +57,17 @@ h4{
 }
 
 .book, a:hover, .join:hover{
-    background-color: #F2AF29 ;
-    color:#74D3AE;
+    background-color:#E53D00  ;
+    color:#0D3B66;
     text-decoration: underline;
 }
 
 .msg h2{
-    color:#E53D00
+    color:#E53D00;
 }
 
 .msg p{
-    color:#0D3B66
+    color:#E53D00;
 }
 
 .button-box{
