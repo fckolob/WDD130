@@ -24,13 +24,13 @@ header{
 
 nav a{
     text-align: center;
-    color:darkmagenta;
+    color:#0D3B66;
     text-decoration: none;
 }
 
 nav a:hover{
     background-color: #0D3B66 ;
-    color:#0D3B66;
+    color:#E53D00;
     text-decoration: none;
 }
 
