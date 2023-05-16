@@ -24,14 +24,14 @@ header{
 
 nav a{
     text-align: center;
-    color: #E53D00;
+    color:darkmagenta;
     text-decoration: none;
 }
 
 nav a:hover{
     background-color: #0D3B66 ;
-    color:#74D3AE;
-    text-decoration: underline;
+    color:#E53D00;
+    text-decoration: none;
 }
 
 .home-title{
@@ -57,17 +57,17 @@ h4{
 }
 
 .book, a:hover, .join:hover{
-    background-color:#E53D00  ;
+    background-color:#E53D00;
     color:#0D3B66;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .msg h2{
-    color:#E53D00;
+    color:#0D3B66;
 }
 
 .msg p{
-    color:#E53D00;
+    color:#0D3B66;
 }
 
 .button-box{
@@ -89,7 +89,7 @@ footer{
 }
 
 footer a{
-    color:#E53D00;
+    color:#0D3B66;
     text-decoration: none;
     font-size: 1.2em;
 }
