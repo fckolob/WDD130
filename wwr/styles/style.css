@@ -302,7 +302,7 @@ footer a:hover{
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
@@ -322,11 +322,11 @@ footer a:hover{
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .river_title {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, .salmon_img, .desolation_img, .grand_canyon_img { 
         margin: 50px auto;
         width: 60%;
     }
