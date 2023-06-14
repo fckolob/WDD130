@@ -228,6 +228,76 @@ footer a:hover{
 
 }
 
+.rivers-grid{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto auto auto;
+    grid-gap: 50px;
+    margin-top: 80px;
+    
+    
+}
+
+.salmon_river{
+    grid-column: 0/1;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+    
+    
+
+}
+
+.desolation_river{
+    grid-column: 0/1;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.grand_canyon_river{
+    grid-column: 0/1;
+    grid-row: 0/1;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.salmon_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+}
+
+.desolation_img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+
+.grand_canyon_img{
+    grid-column: 1/2;
+    grid-row: 0/1;
+    height: 100%;
+    width: 100%;
+}
+
+.river_title{
+    font-family: "Permanent Marker", "Poppins", "Roboto condensed", sans-serif;
+    font-size: 2em;
+    color: #E53D00;
+}
+.river_paragraph{
+    font-family:"Poppins", "Roboto condensed", sans-serif;
+    font-size: 22px;
+    color: #0D3B66;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
