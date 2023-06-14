@@ -281,7 +281,7 @@ footer a:hover{
 .desolation_img{
     grid-column: 1/2;
     grid-row: 2/3;
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 
@@ -289,7 +289,7 @@ footer a:hover{
 .grand_canyon_img{
     grid-column: 1/2;
     grid-row: 3/4;
-    height: 100%;
+    height: 80%;
     width: 100%;
 }
 
