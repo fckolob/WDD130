@@ -273,6 +273,8 @@ footer a:hover{
     grid-row: 1/2;
     height: 100%;
     width: 100%;
+    margin-top: 30px;
+    
 }
 
 .desolation_img{
