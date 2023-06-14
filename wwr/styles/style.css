@@ -271,8 +271,9 @@ footer a:hover{
 .salmon_img{
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 50%;
+    height: 80%;
     width: 100%;
+    align-self: center;
     
 
 }
