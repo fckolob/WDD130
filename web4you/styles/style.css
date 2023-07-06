@@ -147,7 +147,7 @@ div.scroll-container :hover{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:#2A9D8F;
+    color:#264653;
     padding-top: 5%;
 }
 .samples_paragraph_2{
@@ -156,7 +156,7 @@ div.scroll-container :hover{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:#2A9D8F;
+    color:#264653;
 }
 .samples_paragraph_3{
     font-family: "Roboto", sans-serif;
@@ -164,7 +164,7 @@ div.scroll-container :hover{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:#2A9D8F;
+    color:#264653;
 }
 .samples_paragraph_4{
     font-family: "Roboto", sans-serif;
@@ -172,7 +172,7 @@ div.scroll-container :hover{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:#2A9D8F;
+    color:#264653;
 }
 .samples_paragraph_5{
     font-family: "Roboto", sans-serif;
@@ -180,7 +180,7 @@ div.scroll-container :hover{
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    color:#2A9D8F;
+    color:#264653;
 }
 footer{
     background-color:#E76F51;
@@ -335,6 +335,21 @@ footer a:hover{
     }
     .home_paragraph_2{
         font-size: 1.25em;
+    }
+    .samples_paragraph_1, .samples_paragraph_2, .samples_paragraph_3, .samples_paragraph_4, .samples_paragraph_5{
+        font-size: 1.25em;
+    }
+    #myImg, #myImg2, #myImg3, #myImg4{
+        margin-left: 15%;
+        width: 200px;
+        height: 200px;
+        margin-top: 5%;
+
+    }
+    #myImg5{
+        margin-left: 35%;
+        width: 200px;
+        height: 200px;
     }
     .image_text{
         font-size: 1em;
