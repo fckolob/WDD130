@@ -113,6 +113,12 @@ div.scroll-container :hover{
     
     
 }
+.web-samples-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:repeat(300px, 8) ;
+}
+
 .samples_title{
     font-family: "Kaushan Script";
     padding-top: 2%;
@@ -121,12 +127,39 @@ div.scroll-container :hover{
     font-size: 5em;
     color:#E53D00;
     padding-bottom: 2%;
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+#myImg{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#myImg2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#myImg3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#myImg4{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    justify-self: center;
+}
+#myImg5{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    justify-self: center;
 }
 .home_paragraph_1{
     color:#264653;
     font-family: "Roboto", sans-serif;
     font-size: 2.5em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
@@ -135,7 +168,7 @@ div.scroll-container :hover{
 .home_paragraph_2{
     font-family: "Roboto", sans-serif;
     font-size: 2.5em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
@@ -144,43 +177,56 @@ div.scroll-container :hover{
 .samples_paragraph_1{
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
     padding-top: 5%;
+    grid-column: 1/6;
+    grid-row: 3/4;
 }
 .samples_paragraph_2{
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
+    grid-column: 1/6;
+    grid-row: 4/5;
+
 }
 .samples_paragraph_3{
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
+    grid-column: 1/6;
+    grid-row: 5/6;
+
 }
 .samples_paragraph_4{
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
+    grid-column: 1/6;
+    grid-row: 6/7;
+
 }
 .samples_paragraph_5{
     font-family: "Roboto", sans-serif;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: 5%;
     padding-right: 5%;
     color:#264653;
+    grid-column: 1/6;
+    grid-row: 7/8;
 }
 footer{
     background-color:#E76F51;
@@ -212,7 +258,8 @@ footer a:hover{
     height: 150px;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 3.8%;
+    
+
 }
   
 #myImg:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover {
@@ -340,16 +387,18 @@ footer a:hover{
         font-size: 1.25em;
     }
     #myImg, #myImg2, #myImg3, #myImg4{
-        margin-left: 15%;
+        margin-left: 2%;
         width: 130px;
         height: 130px;
-        margin-top: 5%;
+        
 
     }
     #myImg5{
-        margin-left: 35%;
+        
         width: 130px;
         height: 130px;
+        
+        margin-left: 2%;
     }
     .image_text{
         font-size: 1em;
