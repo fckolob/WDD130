@@ -118,7 +118,205 @@ div.scroll-container :hover{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:repeat(300px, 8) ;
 }
+.web-marketing-grid{
+    max-width: 1600px;
+    height: 100%;
+}
+.marketing_title{
+    font-family: "Kaushan Script";
+    padding-top: 2%;
+    
+    text-align: center;
+    font-size: 5em;
+    color:#e53d00e5;
+}
 
+.show-marketing{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 800px;
+    grid-gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.text-container{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    
+}
+
+
+
+.marketing-div-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 3px;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    z-index: 1;
+    
+}
+
+.marketing-div-2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 3px;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    z-index: 1;
+}
+
+.marketing-div-3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 3px;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    z-index: 1;
+    
+    
+}
+
+.marketing-div-1 :hover{
+    filter: blur(0);
+    filter:opacity(0);
+    
+    
+}
+
+.marketing-div-2 :hover{
+    filter: blur(0);
+    filter:opacity(0)
+}
+
+.marketing-div-3 :hover{
+    filter: blur(0);
+    filter:opacity(0)
+}
+
+.marketing_1_img{
+    display: block;
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    
+}
+.marketing_2_img{
+    display: block;
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+    transition: all 3s ease-out;
+    filter: blur(2);
+    filter:opacity(2);
+    
+    
+}
+.marketing_3_img{
+    display: block;
+    width: 100%;
+    height: 70%;
+    border-radius: 5%;
+    transition: all 3s ease-out;
+    
+    
+}
+
+.marketing_paragraph_1{
+    display: block;
+    color:#264653;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 1;
+    
+    
+}
+
+.marketing_paragraph_2{
+    display: block;
+    color:#264653;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 1;
+
+    
+}
+
+.marketing_paragraph_3{
+    display: block;
+    color:#264653;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    z-index: 1;
+}
+
+.text_1{
+    font-family: "Kaushan Script";
+    color: #E53D00;
+    font-size: 4.5em;
+    text-align: left;
+    text-justify:initial;
+    padding-left: 5%;
+
+}
+
+.text_2{
+    font-family: "Kaushan Script";
+    text-align: center;
+    text-justify: initial;
+    color: #E53D00;
+    font-size: 4.5em;
+}
+
+.text_3{
+    font-family: "Kaushan Script";
+    text-align: right;
+    text-justify: initial;
+    padding-right: 5%;
+    color: #E53D00;
+    font-size: 4.5em;
+    padding-bottom: 5%;
+}
+
+.text-container :hover{
+    
+    transform: blur(0);
+    transform:  opacity(0);
+}
 .samples_title{
     font-family: "Kaushan Script";
     padding-top: 2%;
@@ -352,7 +550,7 @@ footer a:hover{
 
   
 @media screen and (max-width: 900px) {
-    .web-marketing-grid, .web-home-grid, .web-samples-grid {
+    .web-marketing-grid, .web-home-grid, .web-samples-grid,.show-marketing {
         display: block;
         height: auto;
     }
