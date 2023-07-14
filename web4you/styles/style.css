@@ -116,7 +116,7 @@ div.scroll-container :hover{
 .web-samples-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:repeat(300px, 8) ;
+    grid-template-rows:300px 300px 300px 300px 300px 300px 300px 300px
 }
 .web-marketing-grid{
     max-width: 1600px;
@@ -143,9 +143,7 @@ div.scroll-container :hover{
 .text-container{
     grid-column: 1/4;
     grid-row: 1/2;
-    transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
+    
     
 }
 
@@ -161,8 +159,6 @@ div.scroll-container :hover{
     border-style: solid;
     border-width: 3px;
     transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
     z-index: 1;
     
 }
@@ -177,8 +173,6 @@ div.scroll-container :hover{
     border-style: solid;
     border-width: 3px;
     transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
     z-index: 1;
 }
 
@@ -192,8 +186,6 @@ div.scroll-container :hover{
     border-style: solid;
     border-width: 3px;
     transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
     z-index: 1;
     
     
@@ -222,8 +214,7 @@ div.scroll-container :hover{
     height: 70%;
     border-radius: 5%;
     transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
+    
     
 }
 .marketing_2_img{
@@ -232,8 +223,7 @@ div.scroll-container :hover{
     height: 70%;
     border-radius: 5%;
     transition: all 3s ease-out;
-    filter: blur(2);
-    filter:opacity(2);
+    
     
     
 }
@@ -312,11 +302,8 @@ div.scroll-container :hover{
     padding-bottom: 5%;
 }
 
-.text-container :hover{
-    
-    transform: blur(0);
-    transform:  opacity(0);
-}
+
+
 .samples_title{
     font-family: "Kaushan Script";
     padding-top: 2%;
